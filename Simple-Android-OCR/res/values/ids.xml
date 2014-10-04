@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="setting" type="id"/>
+    <item name="graph_list" type="id"/>
+    <item name="red_banner" type="id"/>
+    <item name="green_banner" type="id"/>
+    <item name="blue_banner" type="id"/>
+    <item name="yellow_banner" type="id"/>
+    <item name="total_tag" type="id"/>
+    <item name="balance_tag" type="id"/>
+    <item name="day_tag" type="id"/>
+    <item name="average_tag" type="id"/>
+    <item name="total_percent" type="id"/>
+    <item name="balance_percent" type="id"/>
+    <item name="day_percent" type="id"/>
+    <item name="average_percent" type="id"/>
+    <item name="total_description" type="id"/>
+    <item name="balance_description" type="id"/>
+    <item name="day_description" type="id"/>
+    <item name="total_title" type="id"/>
+    <item name="average_title" type="id"/>
+    <item name="day_title" type="id"/>
+    <item name="average_description" type="id"/>
+    <item name="circular_graph" type="id"/>
+    <item name="camera_halo" type="id"/>
+    <item name="camera_but" type="id"/>
+    <item name="camera_des" type="id"/>
+    <item name="get_name" type="id"/>
+    <item name="logo_regi" type="id"/>
+    <item name="set_up_slide" type="id"/>
+    <item name="page_description" type="id"/>
+    <item name="get_budget" type="id"/>
+    <item name="done_but" type="id"/>
+</resources>

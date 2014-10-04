@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="Tags">
+        <item>Introduction</item>
+        <item>Registration</item>
+    </string-array>
+    
+    <string-array name="Tag_Description">
+        <item>Welcome to use Re Corder</item>
+        <item>Please Initialze Your Budget Plan</item>
+    </string-array>
+    
+</resources>

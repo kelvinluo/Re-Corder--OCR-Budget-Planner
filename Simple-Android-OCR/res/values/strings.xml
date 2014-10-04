@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ReceiptOCRBudgetActivity!</string>
+    <string name="app_name">Re\'corder</string>
+    <string name="button_text">SCAN WITH OCR!</string>
+    <string name="text_hint">Your scanned receipt will appear here....</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_loading_screen">Re\u0027Corder</string>
+    <string name="title_section1">CAMERA</string>
+    <string name="title_section2">STATES</string>
+    <string name="title_section3">GALLERY</string>
+    <string name="title_activity_set_up_fragment">SetUpFragment</string>
+    <string name="title_activity_user_view">UserView</string>
+    <string name="title_activity_menu"></string>
+    <string name="title_activity_amount_view">AmountViewActivity</string>
+    <string name="title_activity_list_item">ListItem</string>
+    <string name="title_activity_list_item_detail">ListItemDetail</string>
+
+</resources>

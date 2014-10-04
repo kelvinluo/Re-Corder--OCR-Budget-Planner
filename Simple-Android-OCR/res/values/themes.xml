@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarTheme"
+           parent="@style/Theme.AppCompat">
+    </style>
+
+    <style name="BlueWhiteActionBarTheme" parent="@style/Theme.AppCompat">
+     
+     <item name="android:actionBarTabStyle">@style/MyActionBarTabs</item>
+
+    </style>
+    
+   <style name="MyActionBarTabs"
+           parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <!-- tab indicator -->
+        
+    </style>
+</resources>
