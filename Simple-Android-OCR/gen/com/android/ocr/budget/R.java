@@ -1802,7 +1802,7 @@ containing a value of this type.
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f05004c;
         public static final int list_title=0x7f05006c;
-        public static final int loading_tt=0x7f050066;
+        public static final int loading_title_item=0x7f050066;
         public static final int logo_regi=0x7f050038;
         public static final int menu_screen=0x7f050069;
         public static final int menu_title=0x7f05005f;

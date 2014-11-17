@@ -118,7 +118,7 @@ public class UserInfoSearch {
 			
 		}
 		
-		previousTotal = Double.parseDouble(preAmount);
+		previousTotal = Math.round(Double.parseDouble(preAmount) * 100.0) / 100.0;
 		return previousTotal;
 	}
 	

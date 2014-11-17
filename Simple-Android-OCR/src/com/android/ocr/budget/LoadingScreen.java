@@ -28,6 +28,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 import android.os.Build;
 
@@ -63,18 +64,16 @@ public class LoadingScreen extends Activity {
 		loading_layout  = (FrameLayout)findViewById(R.id.container);
 		loading_layout.setBackgroundResource(R.drawable.wallpaper);
 		loading_layout.getLayoutParams().height = height;
-		loading_layout.getLayoutParams().width = ((int)(1920*1920/height));
-		loading_layout.setX(-(loading_layout.getLayoutParams().width/3)*2);
+		loading_layout.getLayoutParams().width = ((int)(1920*height/1080));
+		loading_layout.setX(-(loading_layout.getLayoutParams().width*1/3));
 		
-		loading_title = (ImageView)findViewById(R.id.loading_tt);
-		loading_title.setBackgroundResource(R.drawable.loading_title);
-		
-		loading_title.getLayoutParams().width = (int)((width*31/32));
-		loading_title.getLayoutParams().height = (int)((((width*31/32))*3/10));
-
-		loading_title.setX((float)(width/31));
-		loading_title.setY((float)((height/5)*2 + (int)((width/6) + (int)((((width/32)*31)/20)*3))));
-		
+		loading_title = (ImageView)findViewById(R.id.loading_title_item);
+		FrameLayout.LayoutParams params = (FrameLayout.LayoutParams) loading_title.getLayoutParams(); 
+	    params.width = 1080*height/1920;
+	    params.height = height;
+	    params.setMargins(0, 0, 15*height/1920, 100*height/1920);
+	    loading_title.setLayoutParams(params);
+	    
 //		final AnimationDrawable loading_anim_drawable
 //		 =    (AnimationDrawable)loading_animation.getDrawable();
 //		

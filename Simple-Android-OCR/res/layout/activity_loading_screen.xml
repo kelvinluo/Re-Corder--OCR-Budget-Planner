@@ -8,9 +8,11 @@
     tools:ignore="MergeRootFrame" >
 
     <ImageView
-        android:id="@+id/loading_tt"
+        android:id="@+id/loading_title_item"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/loading_title" />
 
 </FrameLayout>
 
